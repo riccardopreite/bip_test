@@ -2,6 +2,17 @@
 Per la risoluzione del problema ho utilizzato l'algoritmo di **kadane** che permette di 
 trovare la porzione di array che contiene la somma maggiore.
 
+```console
+foo@bar:~$ python unit_test.py
+```
+
+Per test personali modificare la riga 51 di [kadane](/kadane.py) scrivendo l'array desiderato,
+per eseguire:
+
+```console
+foo@bar:~$ python kadane.py
+```
+
 L'algoritmo consiste nell'utilizzare due variabili per tenere traccia del massimo raggiunto
 fino a quel momento (**max_so_far**) e una che tiene traccia della somma fino 
 all'elemento corrente (**max_ending_here**).
@@ -13,3 +24,6 @@ si aggiorna **max_so_far** a **max_ending_here**, **start_index** prende il valo
 
 Al termine del programma ritorna la porzione di array tra
 **start_index**: **end_index**+1 e **max_so_far** che e' il massimo trovato.
+
+
+
