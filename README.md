@@ -1,5 +1,5 @@
 # bip_test
-Per la risoluzione del problema ho utilizzato l'algoritmo di **kadane** che permette di 
+Per la risoluzione del problema ho utilizzato l'algoritmo di **kadane**, O(n), che permette di 
 trovare la porzione di array che contiene la somma maggiore.
 
 ```console
